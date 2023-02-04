@@ -10,8 +10,7 @@ public class DataLoarderTest01 {
         FileLoarder fileLoarder = new FileLoarder();
 
         dataBaseLoader.load();
-        fileLoarder.load();
-        
+
         dataBaseLoader.checkPermission();
         fileLoarder.checkPermission();
         DataLoader.retrieveMaxDataSize();
