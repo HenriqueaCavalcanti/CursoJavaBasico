@@ -12,12 +12,12 @@ public class DataLoarderTest01 {
         dataBaseLoader.load();
         fileLoarder.load();
         dataBaseLoader.remove();
-        fileLoarder.remove();
 
         dataBaseLoader.checkPermission();
         fileLoarder.checkPermission();
         DataLoader.retrieveMaxDataSize();
         DataBaseLoader.retrieveMaxDataSize();
+
 
     }
 }
