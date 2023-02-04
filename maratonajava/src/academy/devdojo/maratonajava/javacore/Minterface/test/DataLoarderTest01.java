@@ -11,7 +11,7 @@ public class DataLoarderTest01 {
 
         dataBaseLoader.load();
         fileLoarder.load();
-        dataBaseLoader.remove();
+        
 
         dataBaseLoader.checkPermission();
         fileLoarder.checkPermission();
