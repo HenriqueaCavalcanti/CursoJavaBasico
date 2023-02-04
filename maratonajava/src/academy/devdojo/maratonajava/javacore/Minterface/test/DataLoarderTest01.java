@@ -2,6 +2,7 @@ package academy.devdojo.maratonajava.javacore.Minterface.test;
 
 import academy.devdojo.maratonajava.javacore.Minterface.dominio.DataBaseLoader;
 import academy.devdojo.maratonajava.javacore.Minterface.dominio.DataLoader;
+import academy.devdojo.maratonajava.javacore.Minterface.dominio.DataRemover;
 import academy.devdojo.maratonajava.javacore.Minterface.dominio.FileLoarder;
 
 public class DataLoarderTest01 {
@@ -10,6 +11,7 @@ public class DataLoarderTest01 {
         FileLoarder fileLoarder = new FileLoarder();
 
         dataBaseLoader.load();
+        
 
         dataBaseLoader.checkPermission();
         fileLoarder.checkPermission();
