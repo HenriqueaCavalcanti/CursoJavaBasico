@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Oexception.test;
+package academy.devdojo.maratonajava.javacore.Oexception.Error;
 
 public class StackOverFlowTest01 {
 //    Error => Provavelmente não tera como arrumar em tempo,
