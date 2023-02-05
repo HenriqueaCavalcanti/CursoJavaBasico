@@ -12,7 +12,7 @@ public class ProdutoTest02 {
         Produto computador = new Computador("Ryzen 9", 3000);
         CalculadorImposto.calcularImposto(computador);
         System.out.println("----------");
-        Produto tomate = new Tomate("Siciliano", 10);
+        Tomate tomate = new Tomate("Siciliano", 10, "10/02/2023");
         CalculadorImposto.calcularImposto(tomate);
         System.out.println("--------");
         Televisao televisao = new Televisao("Sansung 50\" ",5000);
