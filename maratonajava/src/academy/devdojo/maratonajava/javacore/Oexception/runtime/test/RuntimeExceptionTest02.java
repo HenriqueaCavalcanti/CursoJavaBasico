@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.Oexception.runtime.test;
 public class RuntimeExceptionTest02 {
     public static void main(String[] args) {
         try {
-            System.out.println("Resultado: " + divisao(4, 0));
+            System.out.println("Resultado: " + divisao(3, 2));
 
         }catch (RuntimeException e){
             e.printStackTrace();
