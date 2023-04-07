@@ -14,12 +14,13 @@ public class FileTest02 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        File fileRenamed = new File(fileDiretorio, "arquivo_renomeado.txt");
-        boolean c = fileArquivoDiretorio.renameTo(fileRenamed);
-        System.out.println(c);
-
-        File fileDiretorioRenamed = new File("Pasta2");
-        boolean b = fileDiretorio.renameTo(fileDiretorioRenamed);
-        System.out.println(b);
+//        File fileRenamed = new File(fileDiretorio, "arquivo_renomeado.txt");
+//        boolean c = fileArquivoDiretorio.renameTo(fileRenamed);
+//        System.out.println(c);
+//
+//        File fileDiretorioRenamed = new File("Pasta2");
+//        boolean b = fileDiretorio.renameTo(fileDiretorioRenamed);
+//        System.out.println(b);
+//    }
     }
 }
